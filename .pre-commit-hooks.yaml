@@ -1,0 +1,10 @@
+-   id: shfmt
+    name: mvdan.cc/sh/v3/cmd/shfmt
+    description: ''
+    entry: shfmt
+    language: golang
+    'types': [shell]
+    args: ["-w"]
+    require_serial: false
+    additional_dependencies: ["mvdan.cc/sh/v3/cmd/shfmt@v3.0.0-alpha0"]
+    minimum_pre_commit_version: '0'
